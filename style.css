@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.container {
+    width: 450px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 25px -10px hsl(224, 23%, 55%);
+}
+
+
+.main {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 15px 30px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.header p {
+    line-height: 25px;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+.second-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: hsl(224, 23%, 55%);
+    line-height: 10px;
+}
+
+a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.column-one {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+img {
+    width: 100%;
+    margin:0;
+    padding:0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.img-icon {
+    width: 50px;
+    height: 50px;
+}
+
+button {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 16px 40px;
+    width: 360px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    box-shadow: 0 5px 35px hsl(224, 23%, 55%);
+}
+
+.cancel-btn {
+    padding-bottom: 40px;
+    padding-top: 10px;
+    color:hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.cancel-btn:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+
+.dark-blue {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+
+
+@media (max-width: 375px;) {
+    body {
+        width: 100%;
+    }
+}
