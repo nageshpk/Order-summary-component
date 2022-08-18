@@ -44,7 +44,6 @@ Users should be able to:
 
 This project wwas made using basic HTML and CSS flexbox. Few things I had to learn were applying shadow effects, and how to resize .svg images. Have attached code snippets below.
 
-To see how you can add code snippets, see below:
 
 ```css
 background-size: cover;
